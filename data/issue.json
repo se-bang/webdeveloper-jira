@@ -1,0 +1,165 @@
+{
+  "pageTitle": "[CRITICAL] 웹개발팀 자리에 사람이 아무도 없습니다. - Jira",
+  "nav": {
+    "searchPlaceholder": "검색",
+    "createLabel": "만들기",
+    "rovoLabel": "Rovo에게 질문하기",
+    "profileInitials": "CD",
+    "notificationCount": "9+",
+    "helpCount": "3+"
+  },
+  "breadcrumb": {
+    "spaceLabel": "스페이스",
+    "project": {
+      "name": "Weverse Shop QA",
+      "icon": "book"
+    },
+    "parentAction": "상위 항목 추가",
+    "issueKey": "WPQ-99999"
+  },
+  "title": "[CRITICAL] 웹개발팀 자리에 사람이 아무도 없습니다.",
+  "description": "[사전조건]\n1. 현재 날짜가 2026년 06월 10일 이여야 합니다.\n2. 타 팀원이 웹개발팀에게 급한 업무 요청, 기능 수정, 혹은 커피 타임을 요청하려는 상태여야 합니다.\n\n[재현경로]\n1.웹개발팀 자리에 찾아간다.\n2.모니터는 켜져 있으나 의자가 비어있음을 확인한다.\n\n[재현결과]\n웹개발팀 팀원 전원 자리에 없는 현상 확인.",
+  "environment": "QA",
+  "attachments": [
+    {
+      "src": "assets/image.png",
+      "name": "스크린샷 2026-06-10 오전 08.00.00.png",
+      "date": "10 6월 2026, 08:00 오전"
+    }
+  ],
+  "linkedIssues": {
+    "addLabel": "연결된 업무 항목 추가"
+  },
+  "agent": {
+    "text": "AI를 사용하고 결과를 확인하세요.",
+    "buttonLabel": "작업 시작"
+  },
+  "activity": {
+    "tabs": [
+      { "id": "all", "label": "전체" },
+      { "id": "comments", "label": "댓글", "active": true },
+      { "id": "history", "label": "기록" },
+      { "id": "worklog", "label": "업무 로그" },
+      { "id": "checklist", "label": "Checklist history" },
+      { "id": "approval", "label": "승인" }
+    ],
+    "composePlaceholder": "댓글 추가...",
+    "unsupportedMessage": "이 탭은 아직 지원되지 않습니다.",
+    "quickReplies": [
+      {
+        "key": "suggest",
+        "label": "댓글 제안...",
+        "text": "이 이슈에 대해 추가 확인이 필요합니다."
+      },
+      {
+        "key": "status",
+        "label": "상태 업데이트...",
+        "text": "상태 업데이트: 현재 확인 중입니다."
+      },
+      {
+        "key": "thanks",
+        "label": "감사합니다...",
+        "text": "감사합니다!"
+      }
+    ]
+  },
+  "context": {
+    "status": "Holding",
+    "watcherCount": 2,
+    "bugImproveLabel": "업무 유형 버그 개선",
+    "detailsHeading": "세부 사항",
+    "fields": [
+      {
+        "label": "담당자",
+        "type": "user",
+        "user": { "initials": "CD", "color": "orange", "name": "한창동/Changdong Han(WEV_웹개발팀)" }
+      },
+      {
+        "label": "보고자",
+        "type": "user",
+        "user": { "initials": "CD", "color": "orange", "name": "한창동/Changdong Han(WEV_웹개발팀)" }
+      },
+      {
+        "label": "수정 버전",
+        "type": "text",
+        "value": "없음"
+      },
+      {
+        "label": "레이블",
+        "type": "labels",
+        "items": ["워크샵"]
+      },
+      {
+        "label": "참조자(복수)",
+        "type": "users",
+        "users": [
+          { "initials": "CD", "color": "orange", "name": "한창동/Changdong Han(WEV_웹개발팀)" },
+          { "initials": "JA", "color": "blue", "name": "강진아/Jinah Kang(WEV_웹개발팀)" },
+          { "initials": "JY", "color": "green", "name": "문준영/Junyeong Mun(WEV_웹개발팀)" },
+          { "initials": "EJ", "color": "purple", "name": "박은지B/Eunji Park(WEV_웹개발팀)" },
+          { "initials": "CR", "color": "red", "name": "박채린C/Chaeryn Park(WEV_웹개발팀)" },
+          { "initials": "SE", "color": "yellow", "name": "방상은/Sangeun Bang(WEV_웹개발팀)" },
+          { "initials": "JH", "color": "brown", "name": "배정훈/JungHun BAE(WEV_웹개발팀)" },
+          { "initials": "HW", "color": "yellow", "name": "부현웅/Hyunwoong Boo(WEV_웹개발팀)" },
+          { "initials": "KA", "color": "blue", "name": "이경애/Kyungai Lee(WEV_웹개발팀)" },
+          { "initials": "SH", "color": "purple", "name": "이성호B/Sungho Lee(WEV_웹개발팀)" },
+          { "initials": "YI", "color": "green", "name": "이윤용/Yunyong Yi(WEV_웹개발팀)" },
+          { "initials": "JE", "color": "red", "name": "이지은H/Jieun  LEE(WEV_웹개발팀)" },
+          { "initials": "GD", "color": "brown", "name": "임가득/Gadeuk Lim(WEV_웹개발팀)" },
+          { "initials": "HN", "color": "yellow", "name": "임하나B/Hana Im(WEV_웹개발팀)" },
+          { "initials": "WS", "color": "blue", "name": "장원석/Wonseok Chang(WEV_웹개발팀)" },
+          { "initials": "KS", "color": "purple", "name": "최경식/Kyongsik Choi(WEV_웹개발팀)" },
+          { "initials": "DG", "color": "green", "name": "최다경/Dagyeong Choi(WEV_웹개발팀)" },
+          { "initials": "JH", "color": "red", "name": "한지훈/Jihoon Han(WEV_웹개발팀)" },
+          { "initials": "JS", "color": "blue", "name": "현주섭/Jusub Hyun(WEV_웹개발팀)" }
+        ]
+      },
+      {
+        "label": "컴포넌트",
+        "type": "labels",
+        "items": ["워", "크", "샵"]
+      },
+      {
+        "label": "우선 순위",
+        "type": "priority",
+        "value": "Lowest",
+        "icon": "priority-lowest"
+      }
+    ],
+    "collapseSections": [
+      { "label": "개발" },
+      {
+        "label": "더 많은 필드",
+        "suffix": "최초 추정치, 시간 추적, 영향을 받는 버전, 상위 항목"
+      },
+      {
+        "label": "자동화",
+        "inlineIcon": "automation",
+        "suffix": "규칙 실행"
+      },
+      {
+        "label": "Checklist",
+        "inlineIcon": "check",
+        "inlineIconClass": "icon-blue",
+        "suffix": "Checklist 열기"
+      },
+      {
+        "label": "Who's Looking?",
+        "linkText": "Open Who's Looking?"
+      }
+    ],
+    "meta": {
+      "created": "만듦 2026년 6월 10일 오전 08:10",
+      "updated": "업데이트 2026년 6월 10일 오전 08:10"
+    }
+  },
+  "sections": {
+    "details": "주요 세부 정보",
+    "attachments": "첨부 파일",
+    "linkedIssues": "연결된 업무 항목",
+    "agent": "에이전트",
+    "activity": "활동",
+    "description": "설명",
+    "environment": "환경"
+  }
+}
